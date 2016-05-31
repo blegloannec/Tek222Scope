@@ -28,7 +28,7 @@ class Tek222:
                         'Acq Mode Menu' : '1C',
                         'X10 Mag' : '20',
                         'Variable Gain' : '21',
-                        'AUTO LVL:PUSH' : '22'}
+                        'AUTO LVL: PUSH' : '22'}
         self.SerialPort = serial.Serial(device,9600,timeout=None,xonxoff=1)
  
     def simulate_button(self,button):
