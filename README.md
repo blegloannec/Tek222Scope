@@ -1,8 +1,10 @@
 # Tektronix 222 RS-232 lib
 
-Python scripts for [serial RS-232](https://en.wikipedia.org/wiki/RS-232 communication with an old [Tektronix 222](http://images.math.cnrs.fr/IMG/jpg/img_0728_bis.jpg) oscilloscope.
+Python scripts for [serial RS-232](https://en.wikipedia.org/wiki/RS-232) communication with an old [Tektronix 222](http://images.math.cnrs.fr/IMG/jpg/img_0728_bis.jpg) oscilloscope.
 
 Written for fun experiments on analog computing (using op amps and analog multipliers) and used to generate figures for [this article](http://images.math.cnrs.fr/Lorenz-Rossler-ampli-op-et-calcul-analogique.html) (in french).
+
+**NB:** The "lib" is partial and poorly written (for a particular purpose), however it might be useful as a starting reference if one needs to do something similar.
 
 ### Requirements
 
@@ -22,4 +24,4 @@ Python 2.x and `matplotlib` (package `python-matplotlib` under Ubuntu/Debian).
 ### References
 
 - [Tektronix 222 RS-232 manual](http://www.eserviceinfo.com/downloadsm/36568/Tektronix_222.html)
-- see also [this other library](https://github.com/tpltnt/tektronix222) (unfortunately also very partial) for more references
+- See also [this other library](https://github.com/tpltnt/tektronix222) (unfortunately also very partial) for more references.
