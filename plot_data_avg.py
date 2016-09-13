@@ -9,9 +9,8 @@ def plot2d(data,avg_rad):
     for i in xrange(0,len(data),4):
         ydata.append(int(data[i:i+2],16))
         xdata.append(int(data[i+2:i+4],16))
+    #plt.axis('scaled')
     plt.axis([0,255,0,255])
-    #plt.axis('equal')
-    #plt.plot(xdata,ydata,linewidth=0.1)
     plt.plot(moving_avg(xdata,avg_rad),moving_avg(ydata,avg_rad),linewidth=0.1)
 
 

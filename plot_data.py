@@ -26,10 +26,9 @@ def plot2d(data):
     for i in xrange(0,len(data),4):
         ydata.append(int(data[i:i+2],16))
         xdata.append(int(data[i+2:i+4],16))
+    #plt.axis('scaled')
     plt.axis([0,255,0,255])
-    #plt.axis('equal')
     plt.scatter(xdata,ydata,s=1,marker='.')
-    #plt.plot(xdata,ydata)
 
 ## Traces des exemples
 def mainex1d():
